@@ -756,7 +756,7 @@
               Notes
               <br>
               <ul>
-                <li>Projects are structured as follows. Project contain Screens, Outpus and Processors. Processors are determined by screen settings. Processors are arranged differenly depending on screen view vs output view.</li>
+                <li>Projects are structured as follows. Project contain Screens, Outputs and Processors. Processors are determined by screen settings. Processors are arranged differenly depending on screen view vs output view.</li>
                 <li>Custom tiles, processors and outputs are turned off at the moment. Please stick to what is in the dropdowns.</li>
                 <li>Things are geared towards working for someone with little to no knowledge of an LED system, with increasing levels of complexity available to advanced users if they please. This may make it seem like you don't have as much
                   customization options as in the past.</li>
@@ -821,15 +821,28 @@
     tile_types.push(new Tile_Type("Absen", "A3 Pro", 3.9, 128, 128, 500, 500, 12.7, 1, 1, 1));
     tile_types.push(new Tile_Type("Absen", "A 1.9", 1.9, 208, 155, 400, 300, 12.7, 1, 1, 1));
     tile_types.push(new Tile_Type("Absen", "C7", 7.5, 80, 80, 600, 600, 12.7, 1, 1, 1));
-    tile_types.push(new Tile_Type("Roe", "Black Pearl 2", 2.84, 176, 176, 500, 500, 9.4, 1, 1, 1));
-    tile_types.push(new Tile_Type("Roe", "Black Pearl 3", 3.9, 128, 128, 500, 500, 9.4, 1, 1, 1));
-    tile_types.push(new Tile_Type("Roe", "Black Pearl 5", 5.2, 96, 96, 500, 500, 9.4, 1, 1, 1));
-    tile_types.push(new Tile_Type("Roe", "Black Onyx 2", 2.84, 176, 176, 500, 500, 9.4, 1, 1, 1));
-    tile_types.push(new Tile_Type("Roe", "Black Onyx 3", 3.47, 144, 144, 500, 500, 9.4, 1, 1, 1));
-    tile_types.push(new Tile_Type("Roe", "Black Onyx 5", 5.2, 96, 96, 500, 500, 9.4, 1, 1, 1));
-    tile_types.push(new Tile_Type("Roe", "Carbon 3", 3.75, 160, 320, 600, 1200, 12.7, 1, 1, 1));
-    tile_types.push(new Tile_Type("Roe", "Carbon 5", 5.76, 104, 208, 600, 1200, 12.7, 1, 1, 1));
-    tile_types.push(new Tile_Type("Roe", "Carbon 8", 8.3, 72, 144, 600, 1200, 12.7, 1, 1, 1));
+    tile_types.push(new Tile_Type("ROE", "RB2.3 (Ruby 2.3)", 2.31, 216, 216, 500, 500, 8.16, 1, 1, 1))
+    tile_types.push(new Tile_Type("ROE", "SP1.5 (Sapphire 1.5)", 1.545, 320, 180, 494.4, 278.1, 4.5, 1, 1, 1))
+    tile_types.push(new Tile_Type("ROE", "DM2.6 (Diamond 2.6)", 2.6, 192, 192, 500, 500, 5.76, 1, 1, 1))
+    tile_types.push(new Tile_Type("ROE", "BP2 (Black Pearl 2)", 2.84, 176, 176, 500, 500, 9.4, 1, 1, 1));
+    tile_types.push(new Tile_Type("ROE", "BP3 (Black Pearl 3)", 3.9, 128, 128, 500, 500, 9.4, 1, 1, 1));
+    tile_types.push(new Tile_Type("ROE", "BO 2 (Black Onyx 2)", 2.84, 176, 176, 500, 500, 9.4, 1, 1, 1));
+    tile_types.push(new Tile_Type("ROE", "BO 3 (Black Onyx 3)", 3.47, 144, 144, 500, 500, 9.4, 1, 1, 1));
+    tile_types.push(new Tile_Type("ROE", "BM4 (Black Marble 4)", 4.76, 128, 128, 609.6, 609.6, 22, 1, 1, 1))
+    tile_types.push(new Tile_Type("ROE", "BM5 (Black Marble 5)", 5.76, 104, 104, 600, 600, 13.5, 1, 1, 1))
+    tile_types.push(new Tile_Type("ROE", "CB3 (Carbon 3)", 3.75, 160, 320, 600, 1200, 12.7, 1, 1, 1));
+    tile_types.push(new Tile_Type("ROE", "CB5 (Carbon 5)", 5.76, 104, 208, 600, 1200, 12.7, 1, 1, 1));
+    tile_types.push(new Tile_Type("ROE", "CB8 (Carbon 8)", 8.3, 72, 144, 600, 1200, 12.7, 1, 1, 1));
+    tile_types.push(new Tile_Type("ROE", "V8S (Vanish V8S)", 8.9, 112, 112, 1000, 1000, 9.3, 1, 1, 1));
+    tile_types.push(new Tile_Type("ROE", "BQ3.9 (Black Quartz 3.9)", 3.9, 128, 256, 500, 1000, 16.7, 1, 1, 1));
+    tile_types.push(new Tile_Type("ROE", "BQ4.6 (Black Quartz 4.6)", 4.6, 108, 216, 500, 1000, 22, 1, 1, 1));
+    tile_types.push(new Tile_Type("ROE", "AB0.9 (Amber 0.9)", 0.93, 640, 360, 600, 337.5, 8.5, 1, 1, 1));
+    tile_types.push(new Tile_Type("ROE", "AB1.2 (Amber 1.2)", 1.25, 480, 270, 600, 337.5, 8.5, 1, 1, 1));
+    tile_types.push(new Tile_Type("ROE", "AB1.5 (Amber 1.5)", 1.56, 384, 216, 600, 337.5, 8.5, 1, 1, 1));
+    tile_types.push(new Tile_Type("ROE", "AB1.8 (Amber 1.8)", 1.87, 320, 180, 600, 337.5, 8.5, 1, 1, 1));
+    tile_types.push(new Tile_Type("ROE", "JA2.6 (Jasper 2.6)", 2.60, 192, 192, 500, 500, 7.5, 1, 1, 1));
+    tile_types.push(new Tile_Type("ROE", "JA3.9 (Jasper 3.9)", 3.91, 128, 128, 500, 500, 7.5, 1, 1, 1));
+    tile_types.push(new Tile_Type("ROE", "JA5.2 (Jasper 5.2)", 5.21, 96, 96, 500, 500, 7.5, 1, 1, 1));
     tile_types.push(new Tile_Type("Uniliumin", "UTILE 3.9", 3.9, 128, 128, 500, 500, 12.7, 1, 1, 1));
     tile_types.push(new Tile_Type("Uniliumin", "Upad III 2.6", 2.6, 192, 192, 500, 500, 12.7, 1, 1, 1));
     tile_types.push(new Tile_Type("Uniliumin", "Upad III 4.8", 4.8, 104, 104, 500, 500, 12.7, 1, 1, 1));
@@ -859,15 +872,21 @@
       [1920, 1080],
       [3840, 2160],
       [4096, 2160]
-    ], 555555, 8, 4));
+    ], 350000, 8, 4));
     processor_types.push(new Processor_Type("Brompton", "Tessera M2", [
       [1280, 720],
       [1920, 1080]
-    ], 555555, 8, 2));
+    ], 350000, 8, 2));
+    processor_types.push(new Processor_Type("ROE", "Evision eV4", [
+      [1280, 720],
+      [1920, 1080],
+      [3840, 2160],
+      [4096, 2160]
+    ], 650000, 20, 4));
     processor_types.push(new Processor_Type("ROE", "Evision HD102", [
       [1280, 720],
       [1920, 1080]
-    ], 555555, 4, 2));
+    ], 650000, 4, 2));
     processor_types.push(new Processor_Type("Novastar", "MCTRL4K", [
       [1280, 720],
       [1920, 1080],

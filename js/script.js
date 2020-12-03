@@ -49,6 +49,7 @@ let processor_types = [];
 processor_types.push(new Processor_Type("Brompton", "Tessera SX40", 3840, 2160, 555555, 8, 4));
 processor_types.push(new Processor_Type("Brompton", "Tessera M2", 1920, 1080, 555555, 8, 2));
 processor_types.push(new Processor_Type("ROE", "Evision HD102", 1920, 1080, 555555, 4, 2));
+processor_types.push(new Processor_Type("ROE", "Evision eV4", 4096, 2160, 555555, 8, 4));
 processor_types.push(new Processor_Type("Novastar", "MCTRL4K", 3840, 2160, 555555, 16, 4));
 processor_types.push(new Processor_Type("Novastar", "NovaPro HD", 1920, 1080, 555555, 8, 4));
 
